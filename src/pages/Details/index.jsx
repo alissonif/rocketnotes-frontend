@@ -9,8 +9,7 @@ import { Tag } from "../../components/Tag";
 import { ButtonText } from "../../components/ButtonText";
 import { useState, useEffect } from "react";
 
-// import { api } from "C:/Users/Alisson/Documents/1Projetos/Stage09.2/rocketnotes/backend/src/services/api";
-import { api } from "../../../backend/src/services/api";
+import { api } from "../../../../backend/src/services/api";
 
 export function Details() {
   const [data, setData] = useState(null);

@@ -10,7 +10,7 @@ import { Note } from "../../components/Note";
 
 import { useState, useEffect } from "react";
 
-import { api } from "C:/Users/Alisson/Documents/1Projetos/Stage09.2/rocketnotes/backend/src/services/api";
+import { api } from "../../../../backend/src/services/api";
 
 import { useNavigate } from "react-router-dom";
 export function Home() {

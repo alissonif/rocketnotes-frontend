@@ -1,10 +1,6 @@
 import { createContext, useContext, useState, useEffect } from "react";
 
-// import { api } from "../../../../Stage08/Aula/src/services/api";
-// import {api} from '#Rocketseat#NewContente/Projetos#Curso#Eventos/Stage08/Aula/src/services';
-// import {api} from '../../backend/src/services/api'
-import {api} from "C:/Users/Alisson/Documents/1Projetos/Stage09.2/rocketnotes/backend/src/services/api"
-
+import { api } from "../../../backend/src/services/api";
 
 const AuthContext = createContext({});
 

@@ -5,10 +5,7 @@ import { Input } from "../../components/Input";
 import { Button } from "../../components/Button";
 import { Link, useNavigate } from "react-router-dom";
 
-// import {api} from '/Users/alisson/Pictures/Stage08/Aula/src/services/api'
-// import {api} from '/Users/Alisson/Documents/1Projetos/Stage08/Aula/src/services/api'
-// import {api} from '../../../backend/../src/services/api'
-import {api} from "C:/Users/Alisson/Documents/1Projetos/Stage09.2/rocketnotes/backend/src/services/api"
+import {api} from "../../../../backend/src/services/api"
 
 import { FiLogIn, FiMail, FiLock, FiUser } from "react-icons/fi";
 
