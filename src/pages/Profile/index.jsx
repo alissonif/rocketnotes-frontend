@@ -9,7 +9,8 @@ import { useState } from "react";
 
 import { useAuth } from "../../hooks/auth";
 
-import { api } from "../../../../backend/src/services/api"
+// import { api } from "../../../../backend/src/services/api"
+import { api } from "../../services/api"
 
 import avatarPlaceholder from "../../assets/avatar_placeholder.svg";
 

@@ -9,7 +9,8 @@ import { Tag } from "../../components/Tag";
 import { ButtonText } from "../../components/ButtonText";
 import { useState, useEffect } from "react";
 
-import { api } from "../../../../backend/src/services/api";
+// import { api } from "../../../../backend/src/services/api";
+import { api } from "../../services/api"
 
 export function Details() {
   const [data, setData] = useState(null);
