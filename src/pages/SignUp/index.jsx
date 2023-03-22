@@ -5,7 +5,8 @@ import { Input } from "../../components/Input";
 import { Button } from "../../components/Button";
 import { Link, useNavigate } from "react-router-dom";
 
-import {api} from "../../../../backend/src/services/api"
+// import {api} from "../../../../backend/src/services/api"
+import {api} from "../../../src/services/api"
 
 import { FiLogIn, FiMail, FiLock, FiUser } from "react-icons/fi";
 
